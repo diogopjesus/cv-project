@@ -1,0 +1,86 @@
+{
+    "models":
+    {
+        "backpack":
+        {
+            "path": "assets/models/backpack/backpack.obj",
+            "shaders": 
+            {
+                "vertex": "shaders/backpack.vert",
+                "fragment": "shaders/backpack.frag"
+            }
+        },
+        "capsule":
+        {
+            "path": "assets/models/capsule/capsule.obj",
+            "shaders":
+            {
+                "vertex": "shaders/capsule.vert",
+                "fragment": "shaders/capsule.frag"
+            }
+        }
+    },
+
+    "skyboxes":
+    {
+        "skybox1":
+        {
+            "path": "assets/skyboxes/skybox1/",
+            "shaders":
+            {
+                "vertex": "shaders/skybox.vert",
+                "fragment": "shaders/skybox.frag"
+            }
+            
+        },
+        "skybox2":
+        {
+            "path": "assets/skyboxes/skybox2/",
+            "shaders":
+            {
+                "vertex": "shaders/skybox.vert",
+                "fragment": "shaders/skybox.frag"
+            }
+        },
+        "skybox3":
+        {
+            "path": "assets/skyboxes/skybox3/",
+            "shaders":
+            {
+                "vertex": "shaders/skybox.vert",
+                "fragment": "shaders/skybox.frag"
+            }
+        }
+    },
+
+    "heightmaps":
+    {
+        "heightmap1":
+        {
+            "path": "assets/heightmaps/heightmap1.png",
+            "shaders":
+            {
+                "vertex": "shaders/heightMapTerrain.vert",
+                "fragment": "shaders/heightMapTerrain.frag"
+            }
+        },
+        "heightmap2":
+        {
+            "path": "assets/heightmaps/heightmap2.png",
+            "shaders":
+            {
+                "vertex": "shaders/heightMapTerrain.vert",
+                "fragment": "shaders/heightMapTerrain.frag"
+            }
+        }
+    },
+
+    "pointLight":
+    {
+        "shaders":
+        {
+            "vertex": "shaders/lightSource.vert",
+            "fragment": "shaders/lightSource.frag"
+        }
+    }
+}
